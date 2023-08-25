@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="dates">
+      <div class="datepart" id="birthDate">
+        Day<br>
+        <input value="34" class="date" id="date" type="text"><br>
+        <span class="hidden">Must be a valid day</span>
+      </div>
+      <div class="datepart" id="birthMonth">
+        month<br>
+        <input value="08" type="text" class="months" id="months"><br>
+        <span class="hidden" >Must be a valid month</span>
+      </div>
+      <div class="datepart" id="birthYear">
+        Year<br>
+        <input value="2002" type="text" class="years" id="years"><br>
+        <span class="hidden"> Must be in past</span>
+      </div>
+
+    </div>
+    <div class="hr">
+      <hr class="hr"><button id="btn"><img src="assets/images/icon-arrow.svg" alt=""></button>
+    </div>
+
+    <div class="age">
+        <span class="num" >38</span> years <br>
+
+        <span class="num">3</span> months <br>
+
+        <span class="num">1984</span> days<br>
+    </div>
+    
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
